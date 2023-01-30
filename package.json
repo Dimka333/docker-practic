@@ -1,0 +1,22 @@
+{
+  "name": "docker-practic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dimka333/docker-practic.git"
+  },
+  "author": "Dimka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dimka333/docker-practic/issues"
+  },
+  "homepage": "https://github.com/Dimka333/docker-practic#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
