@@ -1,13 +1,11 @@
-FROM node:10
+FROM node:16
 
-WORKDIR /usr/src/app
+WORKDIR /war/www/
 
-COPY package.json ./
+COPY package.json .
 
 RUN npm install
 
-COPY . .
-
 EXPOSE 3000
 
-CMD [ "node", "./server.js" ]
+CMD [ "node", "./src/server.js" ]
